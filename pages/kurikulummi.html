@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurikulum - D3 Manajemen Informatika</title>
+    <link rel="icon" href="../img/logomi.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body id="top">
+
+<nav class="navbar navbar-expand-lg py-3 sticky-top" style="background-color: #354a6e;">
+    <div class="container">
+        <a class="navbar-brand text-white d-flex align-items-center" href="../index.html">
+            <img src="../img/logomi.png" alt="Logo MI" style="height: 45px; margin-right: 15px;">
+            <span class="d-none d-md-block fw-bold" style="font-size: 1.2em; line-height: 1.1;">PRODI D3 MANAJEMEN INFORMATIKA</span>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-lg-center">
+                <li class="nav-item"><a class="nav-link text-white" href="mi.html   ">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="mi.html#about">Profil</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="mi.html#misimisi">Visi Misi</a></li>
+                <li class="nav-item"><a class="nav-link text-white fw-bold active" aria-current="page" href="#">Kurikulum</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="mi.html#profil">Profil Lulusan</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="mi.html#prestasi">Prestasi</a></li>
+
+                <li class="nav-item ms-lg-3">
+                    <a class="btn btn-outline-light rounded-pill px-4" href="mi.html#contact">Hubungi Kami</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="bg-light pt-3 pb-2">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="mi.html" class="text-decoration-none text-secondary">Home</a></li>
+                <li class="breadcrumb-item active text-primary" aria-current="page">Kurikulum</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="bg-white py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h1 class="fw-bold" style="color: #333; font-size: 2.5em;">Kurikulum Prodi D3 Manajemen Informatika</h1>
+            <div class="mx-auto mt-2" style="width: 70px; height: 3px; background-color: #0d6efd;"></div>
+        </div>
+
+        <h3 class="mt-4 mb-4 fw-bold text-primary">Kurikulum 2022</h3>
+
+        <div class="accordion" id="kurikulumAccordion">
+
+            <div class="accordion-item mb-3 border-primary rounded-3 shadow-sm">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button fw-bold bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="fas fa-book-open me-2"></i> Semester I
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#kurikulumAccordion">
+                    <div class="accordion-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover align-middle mb-0">
+                                <thead class="bg-light">
+                                    <tr>
+                                        <th class="text-center">No</th>
+                                        <th>Kode MK</th>
+                                        <th>Mata Kuliah</th>
+                                        <th class="text-center">Bentuk</th>
+                                        <th class="text-center">SKS</th>
+                                        <th class="text-center">Jam/Minggu (Jml)</th>
+                                        <th class="text-center">Jam/Minggu (T)</th>
+                                        <th class="text-center">Jam/Minggu (P)</th>
+                                        <th>RPS</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td class="text-center">1</td><td>ISY3101</td><td>Algoritma dan Struktur Data</td><td class="text-center">T/P</td><td class="text-center">5</td><td class="text-center">9</td><td class="text-center">3</td><td class="text-center">6</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">2</td><td>ISY2101</td><td>Matematika</td><td class="text-center">T</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">3</td><td>ISY1101</td><td>Kesehatan dan Keselamatan Kerja (K3)</td><td class="text-center">T</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">4</td><td>ISY1102</td><td>Agama</td><td class="text-center">-</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">5</td><td>ISY3102</td><td>Pengantar Teknologi Informasi</td><td class="text-center">T</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">6</td><td>ISY3103</td><td>Sistem Informasi</td><td class="text-center">T</td><td class="text-center">3</td><td class="text-center">3</td><td class="text-center">3</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">7</td><td>ISY2102</td><td>Bahasa Inggris Komunikasi/English For Communication</td><td class="text-center">T</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">8</td><td>ISY2103</td><td>Keterampilan Komputer</td><td class="text-center">P</td><td class="text-center">2</td><td class="text-center">6</td><td class="text-center">0</td><td class="text-center">6</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                </tbody>
+                                <tfoot class="bg-info text-white fw-bold">
+                                    <tr><td colspan="4" class="text-end">Jumlah SKS & Jam</td><td class="text-center">20</td><td class="text-center">28</td><td class="text-center">16</td><td class="text-center">12</td><td></td></tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item mb-3 border-primary rounded-3 shadow-sm">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed fw-bold bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="fas fa-book me-2"></i> Semester II
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#kurikulumAccordion">
+                    <div class="accordion-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover align-middle mb-0">
+                                <thead class="bg-light">
+                                    <tr>
+                                        <th class="text-center">No</th>
+                                        <th>Kode MK</th>
+                                        <th>Mata Kuliah</th>
+                                        <th class="text-center">Bentuk</th>
+                                        <th class="text-center">SKS</th>
+                                        <th class="text-center">Jam/Minggu (Jml)</th>
+                                        <th class="text-center">Jam/Minggu (T)</th>
+                                        <th class="text-center">Jam/Minggu (P)</th>
+                                        <th>RPS</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td class="text-center">1</td><td>ISY3201</td><td>Multimedia</td><td class="text-center">P</td><td class="text-center">1</td><td class="text-center">3</td><td class="text-center">0</td><td class="text-center">3</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">2</td><td>ISY3202</td><td>Sistem Operasi</td><td class="text-center">T/P</td><td class="text-center">3</td><td class="text-center">5</td><td class="text-center">2</td><td class="text-center">3</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">3</td><td>ISY3301</td><td>Sistem Basis Data</td><td class="text-center">T/P</td><td class="text-center">5</td><td class="text-center">9</td><td class="text-center">3</td><td class="text-center">6</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">4</td><td>ISY3302</td><td>Pemrograman Web Dasar</td><td class="text-center">P</td><td class="text-center">1</td><td class="text-center">3</td><td class="text-center">0</td><td class="text-center">3</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">5</td><td>ISY3203</td><td>Matematika Diskrit</td><td class="text-center">T</td><td class="text-center">3</td><td class="text-center">3</td><td class="text-center">3</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">6</td><td>ISY3303</td><td>Pemrograman Berorientasi Objek</td><td class="text-center">T/P</td><td class="text-center">4</td><td class="text-center">8</td><td class="text-center">2</td><td class="text-center">6</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">7</td><td>ISY3104</td><td>Pancasila</td><td class="text-center">T</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                </tbody>
+                                <tfoot class="bg-info text-white fw-bold">
+                                    <tr><td colspan="4" class="text-end">Jumlah SKS & Jam</td><td class="text-center">19</td><td class="text-center">33</td><td class="text-center">12</td><td class="text-center">21</td><td></td></tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item mb-3 border-primary rounded-3 shadow-sm">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed fw-bold bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="fas fa-desktop me-2"></i> Semester III
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#kurikulumAccordion">
+                    <div class="accordion-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover align-middle mb-0">
+                                <thead class="bg-light">
+                                    <tr>
+                                        <th class="text-center">No</th>
+                                        <th>Kode MK</th>
+                                        <th>Mata Kuliah</th>
+                                        <th class="text-center">Bentuk</th>
+                                        <th class="text-center">SKS</th>
+                                        <th class="text-center">Jam/Minggu (Jml)</th>
+                                        <th class="text-center">Jam/Minggu (T)</th>
+                                        <th class="text-center">Jam/Minggu (P)</th>
+                                        <th>RPS</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td class="text-center">1</td><td>ISY3304</td><td>Pemrograman Mobile</td><td class="text-center">T/P</td><td class="text-center">3</td><td class="text-center">5</td><td class="text-center">2</td><td class="text-center">3</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">2</td><td>ISY3204</td><td>Interaksi Manusia dan Komputer</td><td class="text-center">T</td><td class="text-center">3</td><td class="text-center">3</td><td class="text-center">3</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">3</td><td>ISY3305</td><td>Pemrograman Web Dinamis</td><td class="text-center">P</td><td class="text-center">1</td><td class="text-center">3</td><td class="text-center">0</td><td class="text-center">3</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">4</td><td>ISY3205</td><td>Jaringan Komputer</td><td class="text-center">T/P</td><td class="text-center">3</td><td class="text-center">5</td><td class="text-center">2</td><td class="text-center">3</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">5</td><td>ISY3306</td><td>Pemrograman Desktop</td><td class="text-center">P</td><td class="text-center">1</td><td class="text-center">3</td><td class="text-center">0</td><td class="text-center">3</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">6</td><td>ISY3206</td><td>Rekayasa Perangkat Lunak</td><td class="text-center">T/P</td><td class="text-center">4</td><td class="text-center">6</td><td class="text-center">3</td><td class="text-center">3</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">7</td><td>ISY3307</td><td>Sistem Informasi Geografis</td><td class="text-center">T/P</td><td class="text-center">2</td><td class="text-center">4</td><td class="text-center">1</td><td class="text-center">3</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">8</td><td>ISY3207</td><td>Desain Antar Muka</td><td class="text-center">P</td><td class="text-center">1</td><td class="text-center">3</td><td class="text-center">0</td><td class="text-center">3</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">9</td><td>ISY3308</td><td>Analisis dan Perancangan Sistem Informasi</td><td class="text-center">T</td><td class="text-center">3</td><td class="text-center">3</td><td class="text-center">3</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                </tbody>
+                                <tfoot class="bg-info text-white fw-bold">
+                                    <tr><td colspan="4" class="text-end">Jumlah SKS & Jam</td><td class="text-center">21</td><td class="text-center">35</td><td class="text-center">14</td><td class="text-center">21</td><td></td></tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item mb-3 border-primary rounded-3 shadow-sm">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed fw-bold bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <i class="fas fa-cloud me-2"></i> Semester IV
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#kurikulumAccordion">
+                    <div class="accordion-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover align-middle mb-0">
+                                <thead class="bg-light">
+                                    <tr>
+                                        <th class="text-center">No</th>
+                                        <th>Kode MK</th>
+                                        <th>Mata Kuliah</th>
+                                        <th class="text-center">Bentuk</th>
+                                        <th class="text-center">SKS</th>
+                                        <th class="text-center">Jam/Minggu (Jml)</th>
+                                        <th class="text-center">Jam/Minggu (T)</th>
+                                        <th class="text-center">Jam/Minggu (P)</th>
+                                        <th>RPS</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td class="text-center">1</td><td>ISY3105</td><td>Bahasa Inggris Profesi</td><td class="text-center">T</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">2</td><td>ISY3208</td><td>Manajemen Proyek SI</td><td class="text-center">T</td><td class="text-center">3</td><td class="text-center">3</td><td class="text-center">3</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">3</td><td>ISY3209</td><td>Komputasi Awan</td><td class="text-center">T/P</td><td class="text-center">2</td><td class="text-center">4</td><td class="text-center">1</td><td class="text-center">3</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">4</td><td>ISY3106</td><td>Etika Profesi</td><td class="text-center">T</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">5</td><td>ISY3210</td><td>Keamanan Sistem Informasi</td><td class="text-center">T/P</td><td class="text-center">3</td><td class="text-center">5</td><td class="text-center">2</td><td class="text-center">3</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">6</td><td>ISY3211</td><td>Probabilitas dan Statistika</td><td class="text-center">T</td><td class="text-center">3</td><td class="text-center">3</td><td class="text-center">3</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">7</td><td>ISY3309</td><td>Pemrograman Web Framework</td><td class="text-center">T/P</td><td class="text-center">2</td><td class="text-center">4</td><td class="text-center">1</td><td class="text-center">3</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">8</td><td>ISY3310</td><td>Pemrograman Mobile Lanjut</td><td class="text-center">T/P</td><td class="text-center">3</td><td class="text-center">5</td><td class="text-center">2</td><td class="text-center">3</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">9</td><td>ISY3108</td><td>Kewarganegaraan</td><td class="text-center">T</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">10</td><td>ISY3109</td><td>Bahasa Indonesia</td><td class="text-center">T</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                </tbody>
+                                <tfoot class="bg-info text-white fw-bold">
+                                    <tr><td colspan="4" class="text-end">Jumlah SKS & Jam</td><td class="text-center">24</td><td class="text-center">32</td><td class="text-center">20</td><td class="text-center">12</td><td></td></tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item mb-3 border-primary rounded-3 shadow-sm">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed fw-bold bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <i class="fas fa-handshake me-2"></i> Semester V
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#kurikulumAccordion">
+                    <div class="accordion-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover align-middle mb-0">
+                                <thead class="bg-light">
+                                    <tr>
+                                        <th class="text-center">No</th>
+                                        <th>Kode MK</th>
+                                        <th>Mata Kuliah</th>
+                                        <th class="text-center">Bentuk</th>
+                                        <th class="text-center">SKS</th>
+                                        <th class="text-center">Jam/Minggu (Jml)</th>
+                                        <th class="text-center">Jam/Minggu (T)</th>
+                                        <th class="text-center">Jam/Minggu (P)</th>
+                                        <th>RPS</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td class="text-center">1</td><td>ISY3107</td><td>Kewirausahaan</td><td class="text-center">T</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">2</td><td>ISY3212</td><td>E-Commerce</td><td class="text-center">T/P</td><td class="text-center">3</td><td class="text-center">5</td><td class="text-center">2</td><td class="text-center">3</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">3</td><td>ISY3213</td><td>Kapita Selekta</td><td class="text-center">T</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">2</td><td class="text-center">0</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">4</td><td>ISY3215</td><td>Proyek Utama</td><td class="text-center">P</td><td class="text-center">2</td><td class="text-center">6</td><td class="text-center">0</td><td class="text-center">6</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                </tbody>
+                                <tfoot class="bg-info text-white fw-bold">
+                                    <tr><td colspan="4" class="text-end">Jumlah SKS & Jam</td><td class="text-center">9</td><td class="text-center">15</td><td class="text-center">6</td><td class="text-center">9</td><td></td></tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item mb-3 border-primary rounded-3 shadow-sm">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed fw-bold bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        <i class="fas fa-industry me-2"></i> Semester VI (Akhir)
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#kurikulumAccordion">
+                    <div class="accordion-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover align-middle mb-0">
+                                <thead class="bg-light">
+                                    <tr>
+                                        <th class="text-center">No</th>
+                                        <th>Kode MK</th>
+                                        <th>Mata Kuliah</th>
+                                        <th class="text-center">Bentuk</th>
+                                        <th class="text-center">SKS</th>
+                                        <th class="text-center">Jam/Minggu (Jml)</th>
+                                        <th class="text-center">Jam/Minggu (T)</th>
+                                        <th class="text-center">Jam/Minggu (P)</th>
+                                        <th>RPS</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td class="text-center">1</td><td>ISY3215</td><td>PKL (Praktek Kerja Lapangan)</td><td class="text-center">PKL</td><td class="text-center">12</td><td class="text-center">36</td><td class="text-center">0</td><td class="text-center">36</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                    <tr><td class="text-center">2</td><td>ISY3311</td><td>Tugas Akhir</td><td class="text-center">TA</td><td class="text-center">4</td><td class="text-center">12</td><td class="text-center">0</td><td class="text-center">12</td><td><a href="#" class="text-decoration-none">RPS</a></td></tr>
+                                </tbody>
+                                <tfoot class="bg-info text-white fw-bold">
+                                    <tr><td colspan="4" class="text-end">Jumlah SKS & Jam</td><td class="text-center">16</td><td class="text-center">48</td><td class="text-center">0</td><td class="text-center">48</td><td></td></tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> </div>
+</div>
+
+<footer class="text-center pt-5">
+    
+    <div class="container mb-4">
+        <p class="text-dark fw-bold mb-1">D3 - MANAJEMEN INFORMATIKA</p>
+        <p class="text-secondary mb-3">Jurusan Teknologi Informasi | Politeknik Negeri Padang</p>
+        
+        <div class="d-flex justify-content-center">
+            <a href="#" class="btn btn-info rounded-circle p-0 d-flex align-items-center justify-content-center mx-2" style="width: 40px; height: 40px; background-color: #55acee; border-color: #55acee;"><i class="fab fa-twitter text-white"></i></a>
+            <a href="#" class="btn btn-info rounded-circle p-0 d-flex align-items-center justify-content-center mx-2" style="width: 40px; height: 40px; background-color: #3b5998; border-color: #3b5998;"><i class="fab fa-facebook-f text-white"></i></a>
+            <a href="#" class="btn btn-info rounded-circle p-0 d-flex align-items-center justify-content-center mx-2" style="width: 40px; height: 40px; background-color: #ac2bac; border-color: #ac2bac;"><i class="fab fa-instagram text-white"></i></a>
+            <a href="#" class="btn btn-info rounded-circle p-0 d-flex align-items-center justify-content-center mx-2" style="width: 40px; height: 40px; background-color: #cd201f; border-color: #cd201f;"><i class="fab fa-youtube text-white"></i></a>
+        </div>
+    </div>
+    
+    <div class="py-3 text-white" style="background-color: #354a6e;">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <p class="mb-0 fs-6" style="opacity: 0.8;">
+                    © Copyright Prodi D3 Manajemen Informatika
+                </p>
+                
+                <p class="mb-0 fs-6 mt-2 mt-md-0" style="opacity: 0.8;">
+                    Designed by <a href="https://ti.pnp.ac.id" target="_blank" class="text-white text-decoration-none fw-bold">Jurusan Teknologi Informasi</a>
+                </p>
+            </div>
+            
+            <a href="#top" class="btn btn-primary rounded-circle position-fixed bottom-0 end-0 me-3 mb-3" style="background-color: #0d6efd;">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
